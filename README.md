@@ -19,72 +19,118 @@ All modules, including Firmware, BID-Core, Controller-Client, Apps, Documentatio
 Once the Genesis Team is formally established, standard licenses (MIT, AGPL, Apache) may be applied as appropriate. Until then, all rights remain under the exclusive authorship of LAEV.
 
 
-Proyecto Miner Printer & BID
-├── 1. Introducción
-│   ├── 1.1 Contexto del proyecto
-│   ├── 1.2 Problema del trilema
-│   ├── 1.3 Objetivos
-│   └── 1.4 Alcance y enfoque estratégico
-├── 2. Arquitectura General
-│   ├── 2.1 Miner Printer 2D/3D + minería
-│   ├── 2.2 Líneas de negocio
-│   │   ├── 2.2.1 Software: Controlador y papel blockchain
-│   │   └── 2.2.2 Hardware: Miner Printer con ASICs
-│   ├── 2.3 Integración con BID
-│   └── 2.4 Blockchain privada por nodo/disco
-├── 3. Componentes del Software
-│   ├── 3.1 Controlador/Software
-│   │   ├── 3.1.1 Funciones principales
-│   │   ├── 3.1.2 Generación de hash off-chain
-│   │   └── 3.1.3 Compatibilidad con impresoras existentes
-│   ├── 3.2 Papel Blockchain
-│   │   ├── 3.2.1 Meta-información y hash
-│   │   └── 3.2.2 Impresión QR
-│   └── 3.3 Firmware / App de discos duros
-│       ├── 3.3.1 Función off-chain
-│       ├── 3.3.2 Blockchain privada multi-algoritmo
-│       └── 3.3.3 Reporte periódico obligatorio
-├── 4. Hardware Miner Printer
-│   ├── 4.1 Impresoras con ASICs
-│   ├── 4.2 Unificación de ASICs en la pool BID
-│   ├── 4.3 Diferenciación de producto
-│   └── 4.4 Integración con almacenamiento local/cloud
-├── 5. Banca Inteligente Descentralizada (BID)
-│   ├── 5.1 Nodo Capa 0
-│   ├── 5.2 Recepción y verificación de hashes
-│   ├── 5.3 Árbol Merkle de nodos activos/inactivos
-│   ├── 5.4 Validación de quorum y consenso
-│   └── 5.5 Exclusión por incumplimiento de TOS
-├── 6. Blockchain Privada de Reloj Universal
-│   ├── 6.1 Repositorio de tiempo único
-│   ├── 6.2 Número de bloque + timestamp
-│   ├── 6.3 Respaldo descentralizado en otras blockchains
-│   ├── 6.4 Integración BID / Bitcoin
-│   └── 6.5 Sincronización global
-├── 7. Protocolo de Reporte Off-Chain
-│   ├── 7.1 Obligación contractual
-│   ├── 7.2 Canales de envío (cloud, físico, app)
-│   ├── 7.3 Verificación de hashes triplicados
-│   ├── 7.4 Manejo de errores y discrepancias
-│   └── 7.5 Consecuencias de incumplimiento
-├── 8. Seguridad, Integridad y Auditoría
-│   ├── 8.1 Confianza en hashes y nodos activos
-│   ├── 8.2 Protección de blockchain y firmware
-│   ├── 8.3 Resiliencia frente a ataques
-│   ├── 8.4 Protocolos de reconciliación
-│   └── 8.5 Auditoría externa
-├── 9. Modelo de Negocio y Gobernanza
-│   ├── 9.1 Suscripción mensual y TOS
-│   ├── 9.2 Responsabilidad diferenciada
-│   ├── 9.3 Incentivos y disciplina del usuario
-│   └── 9.4 Prioridad desarrollo: software vs hardware
-├── 10. Escalabilidad y Futuro
-│   ├── 10.1 Operación masiva
-│   ├── 10.2 Integración con nuevas blockchains
-│   ├── 10.3 Expansión Miner Printer y BID
-│   └── 10.4 Evolución del ecosistema
-└── 11. Conclusiones
-    ├── 11.1 Resolución del trilema
-    ├── 11.2 Descentralización, seguridad, escalabilidad
-    ├── 11.3 Privacidad y soberanía del usuario
-    └── 11.4 Integridad y confiabilidad del sistema
+Detailed Index – Miner Printer & BID Project
+
+1. Introduction
+
+
+
+1.1. Project Context
+1.2. Blockchain Trilemma Problem
+1.3. Project Objectives
+1.4. Scope and Strategic Approach
+
+2. General Architecture
+
+
+
+2.1. Miner Printer Concept (2D/3D Printing + Mining)
+2.2. Separation of Business Lines:
+ 2.2.1. Software – Controller and Blockchain Paper
+ 2.2.2. Hardware – Miner Printer with ASICs
+2.3. Integration with Decentralized Intelligent Banking (BID)
+2.4. Private Blockchain per Node/Drive
+
+3. Software Components
+
+
+
+3.1. Printer Controller/Software
+ 3.1.1. Main Functions
+ 3.1.2. Off-Chain Hash Generation
+ 3.1.3. Compatibility with Any Existing Printer
+3.2. Blockchain Paper
+ 3.2.1. Concept and Meta-Information
+ 3.2.2. Printing Hashes and QR Codes
+3.3. Firmware and Hard Drive Applications
+ 3.3.1. Off-Chain Function
+ 3.3.2. Multi-Algorithm Private Blockchain
+ 3.3.3. Periodic Reporting Obligation
+
+4. Miner Printer Hardware
+
+
+
+4.1. Printers with ASICs
+4.2. Unification of ASICs in the BID Pool
+4.3. Product Differentiation and Mining Niche
+4.4. Integration with Local and Cloud Storage
+
+5. Decentralized Intelligent Banking (BID)
+
+
+
+5.1. Function as Layer 0 Node
+5.2. Reception, Verification, and Corroboration of Hashes
+5.3. Merkle Tree of Node Activity (Active/Inactive)
+5.4. Quorum and Consensus Validation
+5.5. Exclusion Protocols for TOS Violations
+
+6. Private Universal Clock Blockchain
+
+
+
+6.1. Unique Time Repository (UTS)
+6.2. Block Number + Timestamp
+6.3. Decentralized Backup on Other Blockchains
+6.4. Integration with BID and Anchoring on Bitcoin
+6.5. Guarantee of Global Synchronization and Traceability
+
+7. Off-Chain Reporting Protocol
+
+
+
+7.1. Contractual Obligation per TOS
+7.2. Multiple Hash Transmission Channels
+ 7.2.1. Cloud
+ 7.2.2. Physical Device
+ 7.2.3. Mobile App / Alternative Software
+7.3. Verification of Triplicated Hashes
+7.4. Error and Discrepancy Handling
+7.5. Consequences of Non-Compliance and Consensus Exclusion
+
+8. Security, Integrity, and Audit
+
+
+
+8.1. Trust in Hashes and Active Nodes
+8.2. Protection of Private Blockchain and Firmware
+8.3. Resilience Against Attacks and Failures
+8.4. Reconciliation and Recovery Protocols
+8.5. External Audit and Traceability
+
+9. Business Model and Governance
+
+
+
+9.1. Monthly Subscription and TOS Linked to Hash Reporting
+9.2. Differentiated Responsibility: Off-Chain Data vs On-Chain Hashes
+9.3. User Incentives and Discipline
+9.4. Development Priority: Software vs Hardware
+
+10. Scalability and Future
+
+
+
+10.1. Large-Scale Operation and Resource Optimization
+10.2. Integration with New Blockchains and Technologies
+10.3. Expansion of Miner Printer and BID
+10.4. Ecosystem Evolution and Global Adoption
+
+11. Conclusions
+
+
+11.1. Resolution of the Blockchain Trilemma
+11.2. Decentralization, Security, and Scalability
+11.3. User Privacy and Sovereignty
+11.4. System Integrity and Reliability
