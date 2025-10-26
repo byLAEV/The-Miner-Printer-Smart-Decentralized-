@@ -1,7 +1,10 @@
 # The-Miner-Printer-Smart-Decentralized-
 Dedicated to the memory of Mircea Popescu, the efforts of the Bitcoin network, and its creator, Satoshi Nakamoto. Dedicated to the members of the former Sovereign Republic of Bitcoin.Dedicated to every serious developer like me. But most of all, dedicated to Miss Hannah Wiggins, who inspired me to present my professional work to the world.
 
+https://sora.chatgpt.com/g/gen_01k8ez92naf8cs8056g800t12w
+
 Miner Printer integrates 2D/3D printing and blockchain mining, using controller software and blockchain paper to generate off-chain hashes. The BID validates and anchors data on Bitcoin. Each node maintains a private blockchain and a universally-backed decentralized clock, ensuring traceability, security, and full decentralization.
+
 
 # Miner Printer & BID – Exclusive Property of LAEV
 
